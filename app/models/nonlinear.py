@@ -43,3 +43,14 @@ class Secant(BaseModel):
     tol: float
     niter: int
     relativeError: bool
+
+class CompareAll(BaseModel):
+    a: str
+    b: str
+    x0: str
+    x1: str
+    fx: str
+    gx: str
+    tol: float
+    niter: int
+    relativeError: bool
