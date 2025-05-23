@@ -24,3 +24,12 @@ class SOR(BaseModel):
     tol: float
     niter: int
     relativeError: bool
+
+class CompareAll(BaseModel):
+    A: list
+    b: list
+    x0: list
+    w: float
+    tol: float
+    niter: int
+    relativeError: bool  
