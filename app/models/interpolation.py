@@ -1,5 +1,5 @@
 from pydantic import BaseModel
 
 class Interpolation(BaseModel):
-    x: list
-    y: list
+    x: list[float]
+    y: list[float]

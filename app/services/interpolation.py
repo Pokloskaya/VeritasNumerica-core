@@ -242,3 +242,4 @@ def CubicSpline(x: list, y: list) -> (list, list, str):
         tracer = f'{val[i][0]}x^3 {signs[1]} {abs(val[i][1])}x^2 {signs[2]} {abs(val[i][2])}x {signs[3]} {abs(val[i][3])}'
         tracers.append([[x[i], x[i+1]], tracer])
     return val, tracers, None
+
